@@ -1,5 +1,5 @@
 import React from "react";
-import SectionTitle from "./SectionTitle";
+import SectionTitle from "./sectiontitle";
 import img from '../assets/mypicture.jpg'
 
 export default function About(){
