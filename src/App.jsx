@@ -11,7 +11,6 @@ import GetQuote from './components/getQuote'
 import Footer from './components/footer'
 
 
-
 function App() {
   const [theme, setTheme] = useState(null);
 
@@ -90,6 +89,7 @@ function App() {
       <RightCTA />
       <GetQuote />
       <Footer />
+      
     </main>
     
   )
