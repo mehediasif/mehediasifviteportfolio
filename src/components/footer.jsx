@@ -1,5 +1,6 @@
 import React from "react";
-import SectionTitle from "./SectionTitle";
+import SectionTitle from "./sectiontitle";
+
 import img from '../assets/mypicture.jpg'
 
 function Footer() {
@@ -59,7 +60,8 @@ function Footer() {
                     </div>
                     <div className="xl:flex flex-wrap justify-center xl:mt-24 mt-16 pb-6 pl-3 sm:pl-0">
                         <div className="w-11/12 mx-auto lg:mx-0 xl:mx-0 mb-6 xl:mb-0 rounded-2xl">
-                        <h3 className="text-xl font-semibold uppercase tracking-wide text-indigo-700 dark:text-sky-400">Open source Licenses</h3>
+                        <h3 className="text-center text-xl font-semibold uppercase tracking-wide text-indigo-700 dark:text-sky-400">Open source Licenses</h3>
+                        <p className="flex flex-wrap lg:w-11/12 text-medium font-systems-ui text-slate-800 dark:text-gray-200 p-2"><i className="text-red-500 dark:text-red-400">Disclaimer: </i>All of the components featured on this website were built and designed by me for my personal use using open-source tools. Some of the design elements was inspired from different websites on the internet.But I recreated them with my own knowledge and understanding.If you are interested in using any of the components, feel free to reach out to me I am happy to share my knowledge.</p>
                         <table className="w-11/12 overflow-x-auto text-slate-800 dark:text-gray-100 rounded-md">
                             <thead>
                             <tr className="bg-slate-200 dark:bg-gray-500 h-16 text-md leading-none text-gray-800 rounded-lg">
