@@ -48,7 +48,7 @@ function App() {
       <button
       type="button"
       onClick={handleThemeSwitcher}
-      className='fixed z-10 right-6 top-2 bg-gradient-to-r from-cyan-500 to-sky-700 hover:bg-bg-gradient-to-r hover:from-sky-700 hover:to-indigo-300 text-lg p-2 rounded-md drop-shadow-xl'
+      className='absolute z-10 right-6 top-2 bg-gradient-to-r from-cyan-500 to-sky-700 hover:bg-bg-gradient-to-r hover:from-sky-700 hover:to-indigo-300 text-lg p-2 rounded-md drop-shadow-xl'
       >
         {theme === 'dark' ? 'Switch-light' : 'Switch-dark'}
       </button>
@@ -89,6 +89,7 @@ function App() {
       <RightCTA />
       <GetQuote />
       <Footer />
+      <div id='video-root'></div>
       
     </main>
     

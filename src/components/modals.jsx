@@ -27,10 +27,10 @@ export default function Modal(){
                 className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none dark:bg-black"
                 onClick={toggleModal}
               >
-                <div className="relative w-auto my-6 mx-auto max-w-3xl text-slate-800">
+                <div className="relative w-auto my-6 mx-auto max-w-3xl sm:w-2/3 sm:min-h-min sm:overflow-y-auto text-slate-800">
                   {/*content*/}
                   <div className="border-2 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                    <h3 className="text-2xl font-semibold z-10 px-2">
+                    <h3 className="text-2xl font-semibold px-2 text-center">
                     A Quick Introduction
                     </h3>
                     <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
@@ -49,7 +49,7 @@ export default function Modal(){
                     {/*body*/}
                     <div className="relative p-6 flex-auto">
                       <p className="my-4 text-gray-500 text-lg leading-relaxed">
-                      As a web developer and designer with a background in computer science, I understand the importance of efficiency and clarity in both code and communication. That's why I've created this video CV to be as concise and informative as possible. I've highlighted my most relevant qualifications and experience, including my education and skills in web development and design. By keeping the video short, I hope to give you a quick but comprehensive overview of my qualifications and experience. I look forward to the opportunity to showcase my skills further and I hope you enjoy watching my video CV. Thank you for your time.
+                      As someone who values your time, I understand the importance of clarity in communication. That's why I've created this video CV to be as concise and informative as possible. I've highlighted my most relevant qualifications and experience, including my education and skills in web development and design. By keeping the video short, I hope to give you a quick but comprehensive overview of my qualifications and experience. I look forward to the opportunity to showcase my skills further and I hope you enjoy watching my video CV. Thank you for your time.
                       </p>
                       <p className="my-4 text-gray-700 text-lg leading-relaxed">
                       <b className="text-lg font-bold leading-relaxed mt-6 mb-4 text-red-800">Note:</b> 

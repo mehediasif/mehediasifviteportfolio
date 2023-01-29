@@ -10,7 +10,7 @@ export default function HeroSection(){
             <p className='text-center items-center justify-center my-1 text-black dark:text-white'>
             Witam! Jestem Mehedi
             </p>
-            <p className='text-center items-center justify-center my-1 text-black dark:text-white dark:overline dark:decoration-red-600'>
+            <p className='text-center items-center justify-center my-1 text-black dark:text-white'>
             স্বাগতম, আমার নাম মেহেদী
             </p>
             </div>
