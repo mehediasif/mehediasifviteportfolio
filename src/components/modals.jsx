@@ -49,11 +49,11 @@ export default function Modal(){
                     {/*body*/}
                     <div className="relative p-6 flex-auto">
                       <p className="my-4 text-gray-500 text-lg leading-relaxed">
-                      As someone who values your time, I understand the importance of clarity in communication. That's why I've created this video CV to be as concise and informative as possible. I've highlighted my most relevant qualifications and experience, including my education and skills in web development and design. By keeping the video short, I hope to give you a quick but comprehensive overview of my qualifications and experience. I look forward to the opportunity to showcase my skills further and I hope you enjoy watching my video CV. Thank you for your time.
+                      As someone who values your time, I understand the importance of clarity in communication. That's why I've created this short video CV to be as concise and informative as possible. I've highlighted my most relevant qualifications and experience, including my educational background. I look forward to the opportunity to showcase my skills further and I hope you enjoy watching my video CV. Thank you for your time.
                       </p>
                       <p className="my-4 text-gray-700 text-lg leading-relaxed">
                       <b className="text-lg font-bold leading-relaxed mt-6 mb-4 text-red-800">Note:</b> 
-                      The video CV is just a sneak peek of who I am and what I can do, for a more in-depth view of my skills and experience, please check out the rest of my website.
+                      The video CV is just a sneak peek of who I am and what I can do, for a more in-depth view of my skills and experience, please check out the rest of the portfolio.
                       </p>
                       
                     </div>
