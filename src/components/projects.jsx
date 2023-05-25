@@ -4,12 +4,14 @@ import img2 from '../assets/kebab-bulka.jpg.jpg'
 import img3 from '../assets/media-mesh.png'
 import img4 from '../assets/usermodel_nodejs.png'
 import img5 from '../assets/logo.png'
+import img6 from '../assets/Screenshot_3.jpg'
 
 
 export default function ProjectPage() {
-    const url1 = 'https://mehediasif.github.io/Restuarant-website/'
+    const url1 = 'https://github.com/mehediasif/usermodel_nodejs'
     const url2 = 'https://fiction.vercel.app/'
-    const githubURL = 'https://github.com/mehediasif'
+    const githubURL = 'https://github.com/mehediasif';
+    const blogUrl = 'https://www.mehediasif.ninja';
     return (
         <>
             <div className="mx-auto container">
@@ -32,8 +34,22 @@ export default function ProjectPage() {
                             </div>
                         </div>
                         <div className="flex flex-col w-full md:flex-row items-center justify-start lg:justify-start md:justify-center mt-5 md:mt-24">
+                            <div className="border border-black py-6 2xl:px-2 text-gray-800 dark:text-gray-100 lg:px-4 px-6 md:w-1/6 2xl:w-1/5 text-base 2xl:text-2xl xl:text-lg leading-9 tracking-wider lg:w-1/6 w-full lg:text-2xl">User Model in NodeJS </div>
+                            <div className="relative">
                             <img src={img4} alt="building project" className="md:w-11/12 w-full md:h-auto h-full object-center object-full" />
-                            <div className="border border-black py-6 2xl:px-2 text-gray-800 dark:text-gray-100 lg:px-4 px-6 md:w-1/6 2xl:w-1/5 text-base 2xl:text-2xl xl:text-lg leading-9 tracking-wider lg:w-1/6 w-full lg:text-2xl">Secure& Scaleable E-Commarce backend Architecture</div>
+                            <button 
+                                className="absolute right-8 py-2 px-6 rounded-md bg-emerald-400 shadow-xl text-lg tracking-wider text-gray-800 hover:bg-gray-200 ease-in duration-150 flex border border-black items-center"
+                                onClick={() => window.open(blogUrl, '_blank')}
+                                >
+                                    View Project 
+                                    <svg xmlns="http://www.w3.org/2000/svg" width={13} height={14} viewBox="0 0 13 14" fill="none">
+                                            <path d="M0.827637 7.0004H11.6896" stroke="#1A202C" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M7.03418 1.4741L11.6893 7.0004" stroke="#1A202C" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M7.03427 12.5265L11.6894 7.00022" stroke="#1A202C" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                            </button>
+                            </div>
+                            
                         </div>
                         <div className="flex flex-col md:flex-row w-full items-center justify-start lg:justify-start md:justify-center mt-5 md:mt-20">
                             <img src={img3} alt="building project" className="md:w-11/12 w-full md:h-auto h-full object-center object-full" />
@@ -76,8 +92,19 @@ export default function ProjectPage() {
                             <img src="https://raw.githubusercontent.com/mehediasif/SIdebarforUglyFiction/main/sidebarimg.png" alt="building project" className="md:w-96 w-full md:h-auto h-full object-center object-full" />
                         </div>
                         <div className="flex flex-col-reverse md:flex-row items-center justify-center lg:justify-end mt-5 md:mt-20">
-                            <div className="border border-black py-6 2xl:px-6 text-gray-800 dark:text-gray-100 lg:px-4 px-6 md:w-1/6 2xl:w-1/5 text-base 2xl:text-2xl xl:text-lg leading-9 tracking-wider lg:w-1/6 w-full lg:text-2xl">Graphics Project with OpenGL</div>
-                            <img src={img5} alt="building project" className="md:w-auto w-full md:h-auto h-full object-center object-full" />
+                            <div className="border border-black py-6 2xl:px-6 text-gray-800 dark:text-gray-100 lg:px-4 px-6 md:w-1/6 2xl:w-1/5 text-base 2xl:text-2xl xl:text-lg leading-9 tracking-wider lg:w-1/6 w-full lg:text-2xl">Blog with .mdx</div>
+                            <img src={img6} alt="building project" className="w-5/6 md:h-auto h-fit object-center object-full" />
+                                <button 
+                                className="absolute right-8 py-2 px-6 rounded-md bg-emerald-400 shadow-xl text-lg tracking-wider text-gray-800 hover:bg-gray-200 ease-in duration-150 flex border border-black items-center"
+                                onClick={() => window.open(blogUrl, '_blank')}
+                                >
+                                    View Project 
+                                    <svg xmlns="http://www.w3.org/2000/svg" width={13} height={14} viewBox="0 0 13 14" fill="none">
+                                            <path d="M0.827637 7.0004H11.6896" stroke="#1A202C" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M7.03418 1.4741L11.6893 7.0004" stroke="#1A202C" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M7.03427 12.5265L11.6894 7.00022" stroke="#1A202C" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                </button>
                         </div>
                         <div className='flex items-center justify-center md:pr-12'>
                         <button 
