@@ -9,6 +9,7 @@ import About from './components/about'
 import Technologies from './components/technologies'
 import GetQuote from './components/getQuote'
 import Footer from './components/footer'
+import WhatCurrentlyLearning from './components/whCulearn'
 
 
 function App() {
@@ -88,9 +89,8 @@ function App() {
       <Technologies />
       <RightCTA />
       <GetQuote />
+      <WhatCurrentlyLearning />
       <Footer />
-      <div id='video-root'></div>
-      
     </main>
     
   )

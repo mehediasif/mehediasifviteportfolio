@@ -19,7 +19,7 @@ export default function GetQuote(){
     return(
         <div className="mx-auto max-w-xl mt-8 bg-[#fccefc] opacity-70 dark:bg-[#f7d0f7] rounded-xl">
             <h1 className='flex items-center justify-center'>Quote Of the Day...</h1>
-            <div className="flex items-center justify-center resize-x rounded-md border-4 shadow-xl hover:scale-150 hover:duration-500 dark:hover:text-sky-300 dark:hover:opacity-100">
+            <div className="flex items-center justify-center resize-x rounded-md border-4 shadow-xl dark:hover:opacity-100">
                 <div className='max-w-xl'>
                 <p className='font-BlinkMacSystemFont font-semibold text-xl leading-relaxed'>"{quote.text}"</p>
                 <h3 className='font-apple-system font-light italic text-2xl tracking-widest'>Author : {quote.author}</h3>
