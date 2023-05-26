@@ -1,6 +1,6 @@
 import React from "react";
 import SectionTitle from "./sectiontitle";
-
+import WhatCurrentlyLearning from "./whCulearn";
 import img from '../assets/mypicture.jpg'
 
 function Footer() {
@@ -9,7 +9,7 @@ function Footer() {
     const instagram = 'https://www.instagram.com/asifbrox/';
     const devdotto = 'https://dev.to/mehediasif';
     const linkedin = 'https://www.linkedin.com/in/mehedi-asif-097464177/';
-    const researchGate = 'https://www.researchgate.net/profile/Mohammad-Hasan-154'
+    const researchGate = 'https://www.researchgate.net/profile/Mohammad-Hasan-154';
     return (
         <div className="pt-16">
             <SectionTitle>Get In Touch</SectionTitle>
@@ -21,7 +21,9 @@ function Footer() {
                             <img src={img} alt="Display Picture of Mehediasif" className="w-20 h-20 rounded-full object-cover"/>
                                 <p className="ml-3 font-serif text-xl dark:text-sky-100">Mohammad Mehadi Hasan</p>
                             </div>
-                            <p className="text-medium md:text-xl font-mono text-slate-800 dark:text-gray-200 p-2">As a web developer, I am passionate about staying current with the ever-evolving technologies of the web and constantly looking for new challenges to improve my skills.My portfolio is just a small sample of my skills and experience. As the technologies that power the internet are constantly evolving, I am committed to staying current and adaptable in order to make a positive impact on any organization I join. I am excited to share more about how I can contribute to your organization and please don't hesitate to reach out directly here {`>>`} <i className="cursor-pointer text-sky-600 hover:text-indigo-400 dark:text-sky-400 dark:hover:text-indigo-500">mehadihasan1999@icloud.com</i> if you have any questions or opportunities. </p>
+                            <p className="text-medium md:text-xl font-mono text-slate-800 dark:text-gray-200 p-2">My portfolio is just a small sample of my skills and experience. As the technologies that power the internet are constantly evolving, I am committed to staying current and adaptable in order to make a positive impact on any organization I join. I am excited to share more about how I can contribute to your organization and please don't hesitate to reach out directly here {`>>`} <a className="border-2 shadow-sm shadow-violet-300 rounded-lg focus:outline-none focus:ring focus:ring-violet-300 cursor-pointer text-sky-900 hover:text-indigo-400 dark:text-sky-400 dark:hover:text-indigo-500" href="mailto:mehadihasan1999@icloud.com">Send an Email</a> if you have any questions or opportunities.
+                            
+                            </p>
                         </div>
                         <div className="grid grid-cols-6 md:flex md:flex-row gap-4 mx-2 py-16">
                             <div className="lg:w-24 lg:h-24 md:w-14 md:h-14 hover:-translate-y-5 hover:duration-500 hover:scale-105"
@@ -58,6 +60,7 @@ function Footer() {
                             </div>
                         </div>
                     </div>
+                    <WhatCurrentlyLearning />
                     <div className="xl:flex flex-wrap justify-center xl:mt-24 mt-16 pb-6 pl-3 sm:pl-0">
                         <div className="w-11/12 mx-auto lg:mx-0 xl:mx-0 mb-6 xl:mb-0 rounded-2xl">
                         <h3 className="text-center text-xl font-semibold uppercase tracking-wide text-indigo-700 dark:text-sky-400">Open source Licenses</h3>
