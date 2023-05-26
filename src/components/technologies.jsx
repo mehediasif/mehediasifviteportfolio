@@ -7,7 +7,7 @@ export default function Technologies(){
             <div className="transform bottom-1 lg:-ml-10 md:-mr-52 md:-rotate-270">
             <SectionTitle>Tools and Technologies</SectionTitle>        
             </div>
-            <div className="w-full h-12 flex flex-col mb-8 md:hidden lg:hidden">
+            <div className="w-full h-24 flex flex-col pb-4 md:mb-8 sm:mb-6 md:hidden lg:hidden">
                 <p className="text-center bg-amber-200 tracking-wide">JavaScript&TypeScript</p>
                 <p className="text-center bg-sky-600 tracking-wide">React & Redux</p>
                 <p className="text-center bg-sky-200 tracking-wide">NextJS & VIte</p>
