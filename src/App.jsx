@@ -9,6 +9,7 @@ import About from './components/about'
 import Technologies from './components/technologies'
 import GetQuote from './components/getQuote'
 import Footer from './components/footer'
+import ThesisList from './components/thesis'
 
 
 function App() {
@@ -82,10 +83,11 @@ function App() {
       <About />
 
       <ProjectPage />
-      <div className='max-w-5xl mx-auto w-11/12 flex flex-col justify-center items-center m-2 bg-slate-200 dark:bg-slate-700'>
+      <ThesisList />
+      <Technologies />
+      <div className='max-w-5xl container mx-auto w-11/12 flex flex-col justify-center items-center m-2 bg-slate-200 dark:bg-slate-700 mt-8'>
         <KnowledgeDomain /> 
       </div>
-      <Technologies />
       <RightCTA />
       <GetQuote />
       <Footer />

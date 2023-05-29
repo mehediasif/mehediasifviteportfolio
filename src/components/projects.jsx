@@ -39,7 +39,7 @@ export default function ProjectPage() {
                             <img src={img4} alt="building project" className="md:w-11/12 w-full md:h-auto h-full object-center object-full" />
                             <button 
                                 className="absolute right-8 py-2 px-6 rounded-md bg-emerald-400 shadow-xl text-lg tracking-wider text-gray-800 hover:bg-gray-200 ease-in duration-150 flex border border-black items-center"
-                                onClick={() => window.open(blogUrl, '_blank')}
+                                onClick={() => window.open(url1, '_blank')}
                                 >
                                     View Project 
                                     <svg xmlns="http://www.w3.org/2000/svg" width={13} height={14} viewBox="0 0 13 14" fill="none">
