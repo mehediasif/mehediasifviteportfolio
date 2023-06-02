@@ -1,9 +1,9 @@
 import React from "react";
-import img1 from '../assets/thumbnail_8753.jpg'
+import img1 from '../assets/thumbnail_image0.webp'
 import img2 from '../assets/kebab-bulka.jpg.jpg'
 import img3 from '../assets/media-mesh.png'
 import img4 from '../assets/usermodel_nodejs.png'
-import img5 from '../assets/logo.png'
+import img5 from '../assets/algosrc.webp'
 import img6 from '../assets/Screenshot_3.jpg'
 
 
@@ -15,12 +15,12 @@ export default function ProjectPage() {
     return (
         <>
             <div className="mx-auto container">
-                <div className="xl:flex flex-wrap items-center justify-between relative py-10 lg:py-28 2xl:px-0 xl:px-20 px-4">
+                <div className="xl:flex flex-wrap items-center justify-between relative py-8 lg:py-28 2xl:px-0 xl:px-20 px-4">
                     <div className="xl:w-1/2 w-full md:w-auto flex flex-col sm:items-center lg:items-start">
                         <div className="md:w-10/12 relative md:flex items-center justify-between">
                             <div className="md:flex items-center justify-between w-full">
                                 <div className="transform mb-4 md:mb-0 lg:-ml-10 md:-rotate-90">
-                                    <p className="text-5xl font-semibold tracking-wider leading-normal text-sky-700 dark:text-emerald-600">Projects</p>
+                                    <p className="text-5xl font-bold tracking-wider leading-normal text-sky-700 dark:text-emerald-600">Projects</p>
                                 </div>
                                 <div className="md:pl-20">
                                     <h1 className="hidden xl:block text-5xl font-bold tracking-wider text-gray-800 dark:text-pink-700 uppercase">
@@ -29,7 +29,7 @@ export default function ProjectPage() {
                                     <h1 className="xl:hidden text-4xl md:text-5xl lg:text-7xl font-bold tracking-wider text-gray-800 dark:text-pink-700 uppercase">
                                         Recent<span className="text-indigo-800 dark:text-sky-600"> WORK</span>
                                     </h1>
-                                    <p className="text-gray-800 dark:text-gray-100 mr-2 leading-8 tracking-wide mt-6 text-base md:text-lg"> This section of my portfolio showcases my projects, presented in a sleek and minimalistic architectural style to reflect my proficiency in software architecture.</p>
+                                    <p className="text-gray-800 dark:text-gray-100 mr-2 leading-8 tracking-wide mt-6 text-base md:text-lg"> This section of my portfolio showcases my projects, presented in a sleek and minimalistic architectural style to reflect my proficiency in software architecture...</p>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ export default function ProjectPage() {
                     <div className="xl:w-1/2 w-full md:w-auto flex flex-col mt-5 md:mt-10 xl:mt-0">
                         <div className="flex md:flex-row flex-col-reverse items-center justify-center lg:justify-end relative">
                             <div className="border border-black py-6 2xl:px-6 text-gray-800 dark:text-gray-100 lg:px-4 px-6 md:w-1/6 2xl:w-1/5 text-base 2xl:text-2xl xl:text-lg leading-9 tracking-wider lg:w-1/6 w-full lg:text-2xl">Fiction Creation Platform</div>
-                            <img src={img1} alt="building project" className="md:w-auto w-full md:h-auto h-full object-center object-full" />
+                            <img src={img1} alt="building project" className="md:w-3/4 w-full md:h-auto h-full object-center object-full" />
                             <div className="absolute z-10 right-0 bottom-0 pb-36 sm:pb-28 sm:pr-10 lg:pr-0 xl:-mr-8 md:pb-8">
                                 <button 
                                 className="py-4 px-6 shadow-xl text-lg tracking-wider text-gray-800 hover:bg-gray-200 ease-in duration-150 flex border border-black items-center bg-white"
@@ -88,8 +88,8 @@ export default function ProjectPage() {
                                 </button>
                         </div>
                         <div className="flex flex-col-reverse md:flex-row items-center justify-center lg:justify-end mt-5 md:mt-20">
-                            <div className="border border-black py-6 2xl:px-6 text-gray-800 dark:text-gray-100 lg:px-4 px-6 md:w-1/6 2xl:w-1/5 text-base 2xl:text-2xl xl:text-lg leading-9 tracking-wider lg:w-1/6 w-full lg:text-2xl">Resturant Website design</div>
-                            <img src="https://raw.githubusercontent.com/mehediasif/SIdebarforUglyFiction/main/sidebarimg.png" alt="building project" className="md:w-96 w-full md:h-auto h-full object-center object-full" />
+                            <div className="border border-black py-6 2xl:px-6 text-gray-800 dark:text-gray-100 lg:px-4 px-6 md:w-1/6 2xl:w-1/5 text-base 2xl:text-2xl xl:text-lg leading-9 tracking-wider lg:w-1/6 w-full lg:text-2xl">Javascript Algorithms</div>
+                            <img src={img5} alt="building project" className="md:w-3/4 w-full md:h-auto h-full object-center object-full" />
                         </div>
                         <div className="flex flex-col-reverse md:flex-row items-center justify-center lg:justify-end mt-5 md:mt-20">
                             <div className="border border-black py-6 2xl:px-6 text-gray-800 dark:text-gray-100 lg:px-4 px-6 md:w-1/6 2xl:w-1/5 text-base 2xl:text-2xl xl:text-lg leading-9 tracking-wider lg:w-1/6 w-full lg:text-2xl">Blog with .mdx</div>
