@@ -56,8 +56,8 @@ function App() {
       <div className='flex justify-center content-center px-4 py-4 bg-gray-200 dark:bg-slate-700'>
           {
             !wasViewed && (
-              <h1 className='text-3xl md:text-3xl sm:text-xl sm:max-w-sm: mb-2 md:mb-3 font-bold text-indigo-700 dark:text-sky-400'>
-                Check this out{' '}
+              <h1 className='text-3xl md:text-4xl sm:text-xl sm:max-w-sm: font-[ui-monospace] leading-7 text-indigo-700 dark:text-sky-400'>
+                Check this out &#128526; {' '}
                 <span style={{color: 'green'}}>
                   {texts}
                   <Cursor cursorColor='red' cursorStyle='>>'/>

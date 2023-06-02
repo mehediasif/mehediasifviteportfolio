@@ -1,7 +1,7 @@
 import React from "react";
 import SectionTitle from "./sectiontitle";
 import WhatCurrentlyLearning from "./whCulearn";
-import img from '../assets/mypicture.jpg'
+import img from '../assets/mypicture.webp'
 
 function Footer() {
     const github = 'https://github.com/mehediasif';

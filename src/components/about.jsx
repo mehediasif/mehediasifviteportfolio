@@ -1,6 +1,6 @@
 import React from "react";
 import SectionTitle from "./sectiontitle";
-import img from '../assets/mypicture.jpg'
+import img from '../assets/mypicture.webp'
 
 export default function About(){
     const url1 = 'https://www.linkedin.com/in/mehedi-asif-097464177'

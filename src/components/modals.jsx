@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 export default function Modal(){
-    const [showModal, setShowModal] = React.useState(false);
+    const [showModal, setShowModal] = useState(false);
     const wasViewed = window.localStorage.getItem('important-information-viewed')
     const toggleModal = () => {
       if (wasViewed) {
@@ -15,7 +15,7 @@ export default function Modal(){
     return(
         <>
         {!wasViewed && <button
-          className="bg-pink-700 hover:bg-pink-600 text-white active:bg-pink-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+          className="bg-pink-700 hover:bg-pink-600 text-white active:bg-pink-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mx-2 mb-1 ease-linear transition-all duration-150"
           type="button"
           onClick={toggleModal}
         >Open Video CV
@@ -30,7 +30,7 @@ export default function Modal(){
                 <div className="relative w-auto my-6 mx-auto max-w-3xl sm:w-2/3 sm:min-h-min sm:overflow-y-auto text-slate-800">
                   {/*content*/}
                   <div className="border-2 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                    <h3 className="text-2xl font-semibold px-2 text-center">
+                    <h3 className="text-2xl font-semibold px-2 py-2 text-center">
                     A Quick Introduction
                     </h3>
                     <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
@@ -47,7 +47,7 @@ export default function Modal(){
                       </button>
                     </div>
                     {/*body*/}
-                    <div className="relative p-6 flex-auto">
+                    <div className="relative p-4 flex-auto">
                       <p className="my-4 text-gray-500 text-lg leading-relaxed">
                       As someone who values your time, I understand the importance of clarity in communication. That's why I've created this short video CV to be as concise and informative as possible. I've highlighted my most relevant qualifications and experience, including my educational background. I look forward to the opportunity to showcase my skills further and I hope you enjoy watching my video CV. Thank you for your time.
                       </p>
@@ -87,7 +87,7 @@ export default function Modal(){
                 </div>
               </div>
               <div className="opacity-25 dark:opacity-70 fixed inset-0 z-40 bg-black">
-              <p className="my-4 mx-5 text-amber-700 text-lg leading-relaxed text-center max-w-md">I love to make things more interesting, that's why I've added some Easter eggs in this website, let's see how many you can discover!<br/>
+              <p className="my-4 mx-5 text-amber-700 dark:text-emerald-300 text-lg leading-relaxed text-center max-w-md">I love to make things more interesting, that's why I've added some Easter eggs in this website, let's see how many you can discover!<br/>
               #happyHacking</p>
               </div>
             </>
